@@ -1,0 +1,2 @@
+基于python脚本的CMakeLists.txt生成器,能自动根据当前工程项目目录情况生成对应的CMakeLists.txt文件,能自动递归查找工程的源文件和头文件,自动添加到CMakeLists.txt文件中,在此基础上生成一个配置文件project_config.txt,第一次创建配置文件后后续调用build.py脚本能根据配置文件来更改CMake配置,
+目前仅支持STM32系列,为了对Clion用户方便配置,同时根据配置文件生成idea.cfg文件,为了方便vscode用户使用配置,生成.vsocde配置文件
